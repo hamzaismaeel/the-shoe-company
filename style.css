@@ -1,0 +1,718 @@
+#hero{
+    background-image: url(./images/hero-background.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+   
+}
+#hero-image-section{
+    align-items: center;
+    justify-content: space-evenly;
+}
+#logo-statement{
+    font-size: 60px;
+}
+#how-line{
+    width: 600px;
+    font-size: 45px;
+    margin: 0 auto;
+    margin-top: 10px;
+    text-align: center;
+}
+#shoe-center{
+    margin: 0 auto;
+   margin-top: 100px;
+}
+#shoe-how{
+    width:600px;
+    margin: 0 auto;
+}
+.ShowContainer{
+    /* background-color: aqua; */
+    max-width: 200px;
+    position: absolute;
+    left: calc(18vw);
+    bottom: calc(-30vw);
+}
+#hell,#FRONT,#TRACTION{
+    font-size: 28px;
+    font-weight: bold;
+}
+#arrow-1{
+    width: 200px;
+    margin-left: 50px;
+}
+.ShowContainerFront{
+    width: 200px;
+   position: absolute;
+   left: calc(60vw);
+   bottom: calc(-25vw);
+}
+#arrow-2{
+    position: absolute;
+    right: 200px;
+    bottom: 10px;
+    width: 200px;
+}
+.ShowContainerTraction{
+    max-width: 200px;
+    position: absolute;
+    left: 40vw;
+    bottom: -1000px;
+
+}
+#how-it-work{
+    padding: 40px;
+}
+#about{
+    padding: 40px;
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.aboutHeader{
+    font-size: 45px;
+    font-weight: bold;
+}
+.aboutLeft{
+    background-image: url(./images/about-us-background.png);
+    background-repeat: no-repeat;
+    background-size: 700px;
+}
+.aboutImg{
+    width: 600px;
+}
+.aboutRight{
+    width: 490px;
+}
+.aboutLine{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+/* test section css */
+#testimonials{
+    background-image: url(./images/testimonial-section-background.png);
+}
+.testLine{
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    width: 1200px;
+    margin: 0 auto;
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.testPersonImage{
+    margin: 0 auto;
+    width: 255px;
+}
+.testpersoneLine{
+    font-size: 24px;
+    text-align: center;
+    width: 350px;
+    margin: 0 auto;
+}
+/* contact section css */
+#contact{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.contact{
+    font-size: 45px;
+    font-weight: bold;
+}
+.address{
+    font-size: 24px;
+     margin-bottom: 10px;
+    
+}
+.onlineCon{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.location{
+    width: 500px;
+}
+/* footer section css */
+.footer{
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.footlogo{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+.fLogo{
+    width: 35px;
+}
+.fLine{
+    font-size: 6px;
+}
+
+@media screen and (min-width:767px) and (max-width:1024px)   {
+    #menu{
+        gap:10px
+    }
+    #shoe-image{
+    width: 450px;
+   }
+    #logo-statement{
+    font-size: 50px;
+   }
+    #hero-image-section{
+        align-items: center;
+        justify-content: center;
+    }
+    #hero{
+    background-image: url(./images/hero-background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    }
+    #shoe-how{
+    width:500px;
+    margin: 0 auto;
+    }
+    .ShowContainer{
+        max-width: 180px;
+        position: absolute;
+        left: calc(5vw);
+        bottom: calc(-60vw);
+       
+    }
+    #arrow-1{
+        width: 120px;
+        margin-left: 50px;
+    }
+    #hell,#FRONT,#TRACTION{
+        font-size: 24px;
+        font-weight: bold;
+    }
+    .heelLine,.frontLine,.tractionLine{
+        font-size: 14px;
+    }
+    .ShowContainerFront{
+        width: 180px;
+        position: absolute;
+        left: 590px;
+        bottom: -340px;
+    }
+    #arrow-2{
+        width: 150px;
+        margin-left: -5px;
+        position: absolute;
+        right: 120px;
+        
+    }
+    .ShowContainerTraction{
+        max-width: 180px;
+        position: absolute;
+        left: 30vw;
+        bottom: -800px;
+    } 
+    #arrow-3{
+        width: 150px;
+    }  
+    #about{
+        padding: 30px;
+        margin-top: 100px;
+        justify-content: space-between;
+        gap: 20px;
+    }
+    .aboutHeader{
+        font-size: 30px;
+    }
+    .aboutLeft{
+        background-size: 500px;
+        width: 500px;
+    }
+    .aboutImg{
+        width: 650px;
+    }
+    .aboutRight{
+         width: 400px;
+    }
+    .aboutLine{
+        font-size: 16px;
+        margin-bottom: 18px;
+    }
+    #testimonials{
+        background-image: url(./images/testimonial-section-background.png);
+    }
+    .testLine{
+        font-size: 45px;
+        font-weight: bold;
+        text-align: center;
+        width: 800px;
+        margin: 0 auto;
+    }
+    .card{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .testPersonImage{
+        margin: 0 auto;
+        width: 180px;
+    }
+    .testpersoneLine{
+        font-size: 18px;
+        text-align: center;
+        width: 250px;
+        margin: 0 auto;
+    }
+    /* contact section css */
+    #contact{
+        margin-top: 50px;
+        
+    }
+    .contact{
+        font-size: 35px;
+        font-weight: bold;
+        margin-bottom: 18px;
+    }
+    .address{
+        font-size: 18px;
+    }
+    .onlineCon{
+        display: flex;
+        gap: 8px;
+        align-items: center;
+    }
+    .onlineCon img{
+        width: 35px;
+    }
+    .location{
+        width: 400px;
+    }
+
+    /* footer section css */
+    .footer{
+        margin-top: 28px;
+        gap: 8px;
+    }
+    .footlogo{
+        gap: 1px;
+    }
+    .fLogo{
+        width: 28px;
+    }
+    .fLine{
+        font-size: 6px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+  
+    header{
+        position:relative;
+    }
+    .logo-section{
+        position: absolute;
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    #logo{
+        width: 80px;
+    }
+    #logo-tag{
+        font-size: 10px;
+    }
+    #menu-bar{
+        display: flex;
+    }
+    #menu.visible{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    background-color: rgba(121, 117, 117, 0.3); 
+    backdrop-filter: blur(10px);  
+    padding: 10px 30px;
+    height: 240px;
+    font-size: 12px;
+    gap: 10px;
+    margin-top: 12px;   
+    position: absolute;
+    top: 2px;         /* adjust as needed */
+    right: 10px;       /* show it in top-right corner */
+   }
+    #menu.closeIcon{
+        
+        display:none !important;
+    }
+    #menu-bar{
+        display: flex !important;
+        position: absolute !important;
+        right: calc(8%) !important;
+        top: calc(3%) !important;
+    }
+    #menu-bar.closeIcon{
+        display: none !important;
+    }
+
+    #arrow.visible{
+        display: flex !important;
+        position: absolute !important;
+        top: 0 !important;
+        right: 20px !important;
+        font-size: 20px !important;
+    }
+
+   #shoe-image{
+    width: 300px;
+   }
+   #logo-statement{
+    font-size: 60px;
+   }
+   #hero{
+    background-image: url(./images/hero-background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    margin-top: 50px;
+
+    }
+    #hero-image-section{
+        align-items: center;
+         justify-content: space-evenly;
+         padding-top: 50px;
+    }
+    #how-line{
+    width: 400px;
+    font-size: 30px;
+    margin: 0 auto;
+    margin-top: 10px;
+    text-align: center;
+    }
+    #shoe-how{
+        width:400px;
+        margin: 0 auto;
+    }
+    .ShowContainer{
+        max-width: 150px;
+        position: absolute;
+       left: calc(2vw); 
+    }
+    #arrow-1{
+        width: 120px;
+        margin-left: 50px;
+    }
+    #hell,#FRONT,#TRACTION{
+        font-size: 24px;
+        font-weight: bold;
+    }
+    .heelLine,.frontLine,.tractionLine{
+        font-size: 12px;
+    }
+    .ShowContainerFront{
+        width: 150px;
+        position: absolute;
+        left: 590px;
+        bottom: -180px;
+    }
+    #arrow-2{
+        width: 120px;
+        margin-left: -5px;
+        position: absolute;
+        right: 120px;
+        
+    }
+    .ShowContainerTraction{
+        max-width: 150px;
+        position: absolute;
+        left: 30vw;
+        bottom: -500px;
+    } 
+    #arrow-3{
+        width: 150px;
+    } 
+
+    #about{
+        padding: 20px;
+        margin-top: 140px;
+        flex-direction: column;
+        gap: 20px;
+        position: relative;
+    }
+    .aboutLeft{
+        background-size: contain;
+        margin-top: 50px;
+        width: 350px;
+    }
+  
+    .aboutRight{
+        display: none;
+    }
+    .aboutHeader2{
+        display: block;
+        text-align: center;
+        font-size: 26px;
+        font-weight: bold;
+    }
+    .aboutRight2{
+        display: block;
+        font-size: 14px;
+        margin: 0 auto;
+        width: 250px;
+    }
+    .aboutLine2{
+        margin-bottom: 15px;
+    }
+    /* test section */
+    .testLine{
+        font-size: 30px;
+        width: 350px;
+    }
+    .card{
+        margin-top: 20px ;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       gap: 20px;
+    }
+    .testPersonImage{
+        margin: 0 auto;
+        width: 150px;
+    }
+    .testpersoneLine{
+        font-size: 16px;
+        text-align: center;
+        width: 220px;
+        margin: 0 auto;
+    }
+     /* contact section css */
+    #contact{
+        margin-top: 50px;
+        
+    }
+    .contact{
+        font-size: 28px;
+        font-weight: bold;
+        margin-bottom: 16px;
+    }
+    .address{
+        font-size: 16px;
+    }
+    .onlineCon{
+        display: flex;
+        gap: 6px;
+        align-items: center;
+    }
+    .onlineCon img{
+        width: 30px;
+    }
+    .location{
+        width: 280px;
+    }
+
+      /* footer section css */
+    .footer{
+        margin-top: 25px;
+        gap: 6px;
+    }
+    .footlogo{
+        gap: 0;
+    }
+    .fLogo{
+        width: 28px;
+    }
+    .fLine{
+        font-size: 4.5px;
+    }
+    .madeby{
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width: 650px) 
+{
+    #hero-image-section{
+        flex-direction: column;
+        align-items: start;
+        padding: 40px;
+    }
+    #logo-statement{
+        font-size: 30px;
+    }
+    #shoe-image{
+        width: 280px;
+    }
+    #hero{
+       background-image: url(./images/hero-background.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 70px;
+
+    }
+    #shoe-center{
+        position: relative;
+    }
+    #how-line{
+        width: 250px;
+        font-size: 18px;
+        margin: 0 auto;
+        margin-top: 10px;
+        text-align: center;
+    }
+    #shoe-how{
+        width: 160px;
+    }
+    .ShowContainer{
+        max-width: 100px;
+        position: absolute;
+        bottom: calc(100px);
+        left:  calc(70px)
+       
+    }
+    #arrow-1{
+        width: 50px;
+        margin-left: -5px;
+        transform: rotate(50deg);
+    }
+    #hell,#FRONT,#TRACTION{
+        font-size: 13px;
+        font-weight: bold;
+    }
+    .heelLine,.frontLine,.tractionLine{
+        font-size: 8px;
+    }
+    .ShowContainerFront{
+        width: 100px;
+        position: absolute;
+        left: calc(180px);
+        bottom: 160px;
+    }
+    #arrow-2{
+        width: 60px;
+        margin-left: -5px;
+        transform: rotate(90deg);
+        position: absolute;
+        left: 10px;
+        top: 80px;
+    }
+    .ShowContainerTraction{
+        max-width: 100px;
+        position: absolute;
+        left: calc(120px);
+        bottom: calc(-70px);
+    } 
+    #arrow-3{
+        width: 70px;
+    } 
+
+    #about{
+        margin-top: 60px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .aboutLeft{
+        background-size: contain;
+        margin: 0 auto;
+        margin-top: 15px;
+        width: 200px;
+    }
+    .aboutRight{
+        display: none;
+    }
+    .aboutHeader2{
+        display: block;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .aboutRight2{
+        display: block;
+        font-size: 10px;
+        margin: 0 auto;
+        width: 200px;
+    }
+    .aboutLine2{
+        margin-bottom: 12px;
+    }
+
+    /* test section css */
+    .testLine{
+        font-size: 27px;
+        width: 330px;
+    }
+    .card{
+        margin-top: 18px;
+        gap: 20px;
+    }
+    .testPersonImage{
+        width: 130px;
+    }
+    .testpersoneLine{
+        font-size: 14px;
+        text-align: center;
+        width: 180px;
+        margin: 0 auto;
+    }
+
+    /* contact section css */
+    #contact{
+        margin-top: 50px;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        gap: 20px;
+        
+    }
+    .contact{
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 14px;
+        text-align: center;
+    }
+    .address{
+        font-size: 16px;
+        margin-left: 20px;
+    }
+    .onlineCon{
+        display: flex;
+        gap: 6px;
+        align-items: center;
+        margin-left: 20px;
+    }
+    .onlineCon img{
+        width: 20px;
+    }
+    .location{
+        width: 100%;
+    }
+
+    /* footer section css */
+    .footer{
+        margin-top: 25px;
+        gap: 6px;
+    }
+    .footlogo{
+        gap: 0;
+    }
+    .fLogo{
+        width: 28px;
+    }
+    .fLine{
+        font-size: 4px;
+    }
+    .madeby{
+        font-size: 10px;
+    }
+
+}
